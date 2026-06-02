@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="zj9LQOnLMapZv_E2Zv-S">
+    <mxGraphModel dx="1833" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V2RGNwva-HITF-IwyaXA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;RTBF Request arrives&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="312.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-5" edge="1" parent="1" source="YIILWnzIo-jq4zUa7g5q-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000099;strokeWidth=3;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="V2RGNwva-HITF-IwyaXA-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="160" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-12" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;strokeColor=#000099;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V2RGNwva-HITF-IwyaXA-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-41" connectable="0" parent="V2RGNwva-HITF-IwyaXA-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-23" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;strokeColor=light-dark(#FF3333,#EDEDED);entryX=0.456;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="V2RGNwva-HITF-IwyaXA-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-38" connectable="0" parent="V2RGNwva-HITF-IwyaXA-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5825" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Is there a legal hold or moratorium?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="310.5" x="258" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Query Data catalog for RTBF data locations&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="303.25" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Check Retention Rules Configuration store for disposition action per domain&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="225" x="304" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-17" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000099;strokeWidth=3;flowAnimation=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.5" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-35" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000099;strokeWidth=3;flowAnimation=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1170" as="sourcePoint" />
+            <mxPoint x="420" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Log Dataset - Level Result&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="330" y="1119" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-26" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=light-dark(#FF3333,#EDEDED);strokeWidth=3;flowAnimation=1;" target="V2RGNwva-HITF-IwyaXA-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1550" />
+            </Array>
+            <mxPoint y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Create case record in Right-to-Erasure Store with status as &#39;BLOCKED&#39;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="-80" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Write run summary to Audit Log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="334" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="70" x="390" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="V2RGNwva-HITF-IwyaXA-34" edge="1" parent="1" source="YIILWnzIo-jq4zUa7g5q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000099;strokeWidth=3;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.455;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;" target="V2RGNwva-HITF-IwyaXA-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="1360" as="sourcePoint" />
+            <mxPoint x="420" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-2" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000099;strokeWidth=3;flowAnimation=1;entryX=0.535;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="YIILWnzIo-jq4zUa7g5q-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="160" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Create case record in Right-to-Erasure Store with status as &#39;RECEIVED&#39;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="230" x="299" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Update Right-to-Erasure Store with status as &#39;DELETION COMPLETE&#39;&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="330" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Update Right-to-Erasure Store with status as &#39;DATASETS_IDENTIFIED&#39;&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="225" x="299" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-5" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000099;strokeWidth=3;flowAnimation=1;" target="YIILWnzIo-jq4zUa7g5q-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="650" as="sourcePoint" />
+            <mxPoint x="400" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-6" edge="1" parent="1" source="YIILWnzIo-jq4zUa7g5q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000099;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.467;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;" target="V2RGNwva-HITF-IwyaXA-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIILWnzIo-jq4zUa7g5q-7" edge="1" parent="1" source="V2RGNwva-HITF-IwyaXA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#000099;flowAnimation=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HiJTR6AJBEJSYBseOi6a-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Execute Disposition Action on identified data in Data Factory&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="225" x="307.5" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="HiJTR6AJBEJSYBseOi6a-2" edge="1" parent="1" source="HiJTR6AJBEJSYBseOi6a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000099;strokeWidth=3;flowAnimation=1;" target="V2RGNwva-HITF-IwyaXA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
