@@ -74,7 +74,7 @@
         <mxCell id="Jh1g3xRF6TgQnuWAHbyd-4" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="Recepient Mobile Network Carrier" vertex="1">
           <mxGeometry height="150" width="383" x="707" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-5" edge="1" parent="1" source="Jh1g3xRF6TgQnuWAHbyd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.272;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#6d8764;strokeColor=#3A5431;" target="Jh1g3xRF6TgQnuWAHbyd-4">
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-5" edge="1" parent="1" source="Jh1g3xRF6TgQnuWAHbyd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.272;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#cdeb8b;strokeColor=#007FFF;strokeWidth=2;" target="Jh1g3xRF6TgQnuWAHbyd-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jh1g3xRF6TgQnuWAHbyd-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Message Routing" vertex="1">
@@ -91,6 +91,12 @@
         </mxCell>
         <mxCell id="Jh1g3xRF6TgQnuWAHbyd-9" parent="1" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=#36393d;fillColor=#E5CCFF;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.mobile;" value="Recepient Mobile" vertex="1">
           <mxGeometry height="50" width="25.255" x="907.37" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-11" edge="1" parent="1" source="Jh1g3xRF6TgQnuWAHbyd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.18;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#97D077;strokeWidth=2;curved=1;" target="Jh1g3xRF6TgQnuWAHbyd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DLR - Delivery Receipt" vertex="1">
+          <mxGeometry height="30" width="60" x="630" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
