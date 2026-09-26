@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="GLQL8pf6YxuGnGE5dFRQ">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="AWS CDS" id="GLQL8pf6YxuGnGE5dFRQ">
     <mxGraphModel dx="1006" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -36,6 +36,61 @@
         </mxCell>
         <mxCell id="i7aouDdy7TSHKDSO_3gT-11" edge="1" parent="1" source="i7aouDdy7TSHKDSO_3gT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0.604;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" target="i7aouDdy7TSHKDSO_3gT-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FU8VDCbmYpZECCsudNz2" name="A2P Messaging">
+    <mxGraphModel dx="1006" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U6dKHsE6IsEDzNq7DRhk-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Merriweather, &amp;quot;Noto Sans Myanmar&amp;quot;, sans-serif; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Technical nuances like encoding, message segmentation, and throughput directly impact deliverability, cost, and the user experience.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="520" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U6dKHsE6IsEDzNq7DRhk-4" edge="1" parent="1" source="U6dKHsE6IsEDzNq7DRhk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="U6dKHsE6IsEDzNq7DRhk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U6dKHsE6IsEDzNq7DRhk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Application" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-1" edge="1" parent="1" source="U6dKHsE6IsEDzNq7DRhk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6dKHsE6IsEDzNq7DRhk-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Invoke AWS EUM SMS API" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="U6dKHsE6IsEDzNq7DRhk-6" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=10;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Originator, Recepient, Message Content" vertex="1">
+          <mxGeometry height="50" width="90" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AWS EUM SMS validates request, checks compliance (e.g. opt out lists)" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-3" parent="1" style="line;strokeWidth=2;direction=south;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="690" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-4" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="Recepient Mobile Network Carrier" vertex="1">
+          <mxGeometry height="150" width="383" x="707" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-5" edge="1" parent="1" source="Jh1g3xRF6TgQnuWAHbyd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.272;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#6d8764;strokeColor=#3A5431;" target="Jh1g3xRF6TgQnuWAHbyd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Message Routing" vertex="1">
+          <mxGeometry height="30" width="60" x="707" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-10" edge="1" parent="1" source="Jh1g3xRF6TgQnuWAHbyd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Jh1g3xRF6TgQnuWAHbyd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="Short Message Service Centre (SMSC)" vertex="1">
+          <mxGeometry height="60" width="220" x="810" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-8" edge="1" parent="1" source="Jh1g3xRF6TgQnuWAHbyd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" target="Jh1g3xRF6TgQnuWAHbyd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh1g3xRF6TgQnuWAHbyd-9" parent="1" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=#36393d;fillColor=#E5CCFF;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.mobile;" value="Recepient Mobile" vertex="1">
+          <mxGeometry height="50" width="25.255" x="907.37" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
