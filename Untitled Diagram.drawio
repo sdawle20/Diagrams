@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="GLQL8pf6YxuGnGE5dFRQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1006" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-9" edge="1" parent="1" source="i7aouDdy7TSHKDSO_3gT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="i7aouDdy7TSHKDSO_3gT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="AWS Communication Developer Service (CDS)" vertex="1">
+          <mxGeometry height="70" width="250" x="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-7" edge="1" parent="1" source="i7aouDdy7TSHKDSO_3gT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="i7aouDdy7TSHKDSO_3gT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="AWS EUM (End User Messaging)" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-3" edge="1" parent="1" source="i7aouDdy7TSHKDSO_3gT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0.44;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" target="i7aouDdy7TSHKDSO_3gT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="RCS (Rich Communication Services)" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Short message Service (SMS)" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-6" edge="1" parent="1" source="i7aouDdy7TSHKDSO_3gT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="i7aouDdy7TSHKDSO_3gT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="AWS EUM Social (WhatsApp)" vertex="1">
+          <mxGeometry height="60" width="120" x="375" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Amazon Simple Email Service (SES)" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="i7aouDdy7TSHKDSO_3gT-11" edge="1" parent="1" source="i7aouDdy7TSHKDSO_3gT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0.604;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" target="i7aouDdy7TSHKDSO_3gT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
